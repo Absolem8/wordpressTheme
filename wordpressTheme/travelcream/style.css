@@ -1,0 +1,367 @@
+/*   
+Theme Name: travelcream
+Version: 1.0
+*/
+
+@media (min-width: 979px) {
+	ul.nav li.dropdown.show-on-hover:hover > ul.dropdown-menu { /* для раскрывания субменю по наведению */
+		display: block;
+	}
+	.comment-list .children { /* для комментов */
+		padding: 0;
+		margin-left: 74px;
+		padding-bottom: 15px;
+	}
+	.comment-list .media {
+		margin-top: 0;
+	}
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.menu{
+    width: 100%;
+}
+.searchForm{
+    margin: auto;margin-top: -20px!important;
+}
+.searchForm .form-control{
+    border-radius: 0!important;
+}
+.btn-search{
+    border-radius: 0!important;
+    background-color: #ff4861;
+    border-color: #ff4861;
+}
+.input-group-append{
+    display: none;
+}
+#activity .col-12.col-md-8.card-img img{
+    object-fit: cover;
+    object-position: top;
+    max-height: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+#activity .col-12.col-md-4.card-img img{
+    object-fit: cover;
+    object-position: top;
+    max-height: 500px;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+#activity .col-12.col-md-4.card-img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+#activity .col-12.col-md-8.card-img .col-12:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+#activity .col-12.col-md-4.card-img-2 img{
+    object-fit: cover;
+    object-position: top;
+    max-height: 250px;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+#trips .col-12.col-md-4 .card-img-2 {
+    object-fit: cover;
+    object-position: top;
+    max-height: 250px;
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-image: url(/wp-content/themes/travelcream/img/paris.jpg);
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+}
+.section .title h3{
+    display: inline-block;
+    color: #5a5a5a;
+}
+.section .title span a{
+    color: #8a8a8a;
+}
+.section .title span a:hover {
+    color: #ff8e9d;
+    text-decoration: none;
+}
+
+.section .title span.active a {
+    color: #ff8e9d;
+    cursor: inherit;
+}
+.section .title span.active a:hover {
+    text-decoration: none;
+}
+.section .title span {
+    padding: 10px;
+}
+.table thead th {
+    padding-bottom: 25px;
+    border-top: none;
+    color: #6c6c6c;
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+.first-cell span{
+    display: inline-block;
+}
+.first-cell span img{
+    width: 50px;
+}
+.sub-cell{
+    color: #b1b1b1;
+    font-weight: lighter;
+}
+.see-all{
+    color: #e7e7e7;
+}
+.see-all:hover{
+    color: #ff8e9d;
+    text-decoration: none;
+}
+.main-cell{
+    color: #bcbcbc;
+}
+.first-cell .main-cell {
+    color: #6a6a6a;
+}
+.cell-price{
+    border-color: #ffa4b0;
+    color: #ffa4b0;
+}
+.table {
+    border-bottom: 1px solid #dee2e6;
+}
+.col-12.card {
+    margin-bottom: 30px;
+}
+.card-title {
+    margin-bottom: .75rem;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: #969696;
+}
+.card-subtitle {
+    margin-top: -.375rem;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #c8c8c8;
+}
+a.card-btn {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 40px;
+    color: #ffa4b0;
+    border-color: #ffa4b0;
+    color: #ffa4b0;
+    background-color: transparent;
+}
+a.card-btn:hover{
+    background-color: #ffa4b0;
+    border-color: #ffa4b0;
+    color: #fff;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: #ffa4b0;
+}
+.text-on-image {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+h2.text-light.slogan.text-center {
+    font-size: 60px;
+    margin-top: 100px;
+}
+.sub-slogan.text-center {
+    font-size: 40px;
+    color: #fff;
+}
+.footer-main-link.font-weight-bold.pb-3{
+    font-size: 30px;
+    color: #484848;
+}
+
+.footer-link a{
+    color: #9b9b9b;
+    text-decoration: none;
+}
+.footer-link{
+    color: #9b9b9b;
+}
+.footer-link.mail a{
+    color: #ffa4b0;
+    text-decoration: none;
+}
+.footer-link a:hover{
+    text-decoration: none;
+    color: #ffa4b0;
+}
+button.navbar-toggler {
+    display: inline-block;
+    background-color: #fff;
+}
+a.navbar-brand.text-light {
+    margin-right: 0;
+}
+.slogan-block{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 100px;
+}
+
+@media screen and (max-width: 991px){
+    div#navbarSupportedContent {
+        background-color: #072657;
+        padding: 15px;
+        color: #000;
+        z-index: 9999;
+    }
+    form.form-inline.my-2.my-lg-0.searchForm {
+        padding: 15px;
+        text-align: center;
+    }
+    .btn-search{
+        margin: auto;
+    }
+    .section .title h3{
+        display: block;
+    }
+    .tips-title.font-weight-bold.pt-2.pb-2 {
+        padding: 15px;
+    }
+    .tips-text {
+        padding: 15px;
+    }
+}
